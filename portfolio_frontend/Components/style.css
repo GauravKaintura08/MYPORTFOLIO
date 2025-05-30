@@ -1,0 +1,25 @@
+.moon_icon{
+    width: 27px;
+    border-radius: 100%;
+}
+.menu_black{
+    width: 25px;
+}
+
+.firstname{
+    font-size: 30px;
+    font-weight: 600;
+}
+.caste{
+    font-size: 12px;
+    font-weight: 700;
+}
+.close-black{
+    width: 20px;
+}
+
+/* profile */
+.profile_img{
+height: 200px;
+width: 200px;
+}
