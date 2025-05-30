@@ -7,7 +7,13 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // Replace bodyParser with built-in middleware
 app.use(express.urlencoded({ extended: true }));
-
+app.get('/',(req,res) =>{
+      res.send({
+     activeStatus:true,
+     error:false,
+      })
+}
+)
 // ****************************************Mail code here**********************************
 
 // Email configuration
