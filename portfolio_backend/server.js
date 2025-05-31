@@ -4,9 +4,7 @@ import cors from 'cors';
 
 // Initialize app and middleware
 const app = express();
-app.use(cors({
-  origin:["http://localhost:3000","https://my-portfolio-gaurav-pi.vercel.app"]
-}));
+app.use(cors());
 app.use(express.json()); // Replace bodyParser with built-in middleware
 app.use(express.urlencoded({ extended: true }));
 app.get('/',(req,res) =>{
